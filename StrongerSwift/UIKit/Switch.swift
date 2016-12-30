@@ -9,10 +9,6 @@
 import UIKit
 
 extension UISwitch {
-    //Check if the switch is on (green).
-    public func on() -> Bool {
-        return self.isOn
-    }
     //Set the tint color of the switch.
     public func tint(color: UIColor)  {
         self.tintColor = color

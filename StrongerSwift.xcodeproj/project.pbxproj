@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		404C4C0F1E144E7F00AD4664 /* ViewControllerElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404C4C0E1E144E7F00AD4664 /* ViewControllerElements.swift */; };
+		404C4C111E1450C200AD4664 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404C4C101E1450C200AD4664 /* Image.swift */; };
 		40672F321E0D937D0053D514 /* StrongerSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 40672F301E0D937D0053D514 /* StrongerSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		40672F391E0D97860053D514 /* Bool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40672F381E0D97860053D514 /* Bool.swift */; };
 		40672F3C1E0DA63D0053D514 /* IntAndDouble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40672F3B1E0DA63D0053D514 /* IntAndDouble.swift */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		404C4C0E1E144E7F00AD4664 /* ViewControllerElements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerElements.swift; sourceTree = "<group>"; };
+		404C4C101E1450C200AD4664 /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		40672F2D1E0D937D0053D514 /* StrongerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StrongerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		40672F301E0D937D0053D514 /* StrongerSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StrongerSwift.h; sourceTree = "<group>"; };
 		40672F311E0D937D0053D514 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -89,8 +93,10 @@
 			children = (
 				40FF10D21E0DC9FC0065FB3E /* Button.swift */,
 				40672F421E0DA9960053D514 /* TextField.swift */,
+				404C4C101E1450C200AD4664 /* Image.swift */,
 				40FF10D61E0DCCD30065FB3E /* Switch.swift */,
 				40FEA5421E12773300E29901 /* Label.swift */,
+				404C4C0E1E144E7F00AD4664 /* ViewControllerElements.swift */,
 			);
 			name = UIKit;
 			sourceTree = "<group>";
@@ -177,6 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				40672F431E0DA9960053D514 /* TextField.swift in Sources */,
+				404C4C0F1E144E7F00AD4664 /* ViewControllerElements.swift in Sources */,
 				40FF10D71E0DCCD30065FB3E /* Switch.swift in Sources */,
 				40FF10D31E0DC9FC0065FB3E /* Button.swift in Sources */,
 				40672F391E0D97860053D514 /* Bool.swift in Sources */,
@@ -184,6 +191,7 @@
 				40FEA5431E12773300E29901 /* Label.swift in Sources */,
 				40672F3C1E0DA63D0053D514 /* IntAndDouble.swift in Sources */,
 				40FF10D91E0DD61E0065FB3E /* General.swift in Sources */,
+				404C4C111E1450C200AD4664 /* Image.swift in Sources */,
 				40672F471E0DBDB50053D514 /* Device.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

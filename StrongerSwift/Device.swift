@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import CoreBluetooth
+import LocalAuthentication
 import SystemConfiguration
 
 
@@ -19,6 +19,7 @@ extension UIDevice {
         return UIDevice.current.model
     }
 }
+
 extension Bool {
     func isNetworkAvailable() -> Bool
     {
@@ -29,6 +30,7 @@ extension Bool {
         let defaultRouteReachability = withUnsafePointer(to: &zeroAddress) {
             $0.withMemoryRebound(to: sockaddr.self, capacity: 1) {zeroSockAddress in
                 SCNetworkReachabilityCreateWithAddress(nil, zeroSockAddress)
+                
             }
         }
     
@@ -41,6 +43,7 @@ extension Bool {
         return (isReachable && !needsConnection)
     }
 }
+
 
 
 

@@ -9,8 +9,8 @@
 import UIKit
 
 extension UITextField {
-    public var placeHolder: String {
-        return self.placeholder!
+    public func numberPad() {
+        self.keyboardType = .numberPad
     }
     public func changeTextFieldHeight(newHeight: CGFloat) {
         var frameRect = self.frame
@@ -36,6 +36,57 @@ extension UITextField {
         self.attributedPlaceholder = NSAttributedString(string: self.placeholder != nil ? self.placeholder! : "", attributes: [NSForegroundColorAttributeName: color])
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
